@@ -34,6 +34,8 @@ public class CzwartaAktywnosc extends AppCompatActivity {
         textView6 = findViewById(R.id.textView6);
         textView7 = findViewById(R.id.textView7);
         button8 = findViewById(R.id.button8);
+
+        loadLogoFragment();
         
         button8.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -77,5 +79,12 @@ public class CzwartaAktywnosc extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    private void loadLogoFragment() {
+        LogoFragment logoFragment = new LogoFragment();
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.fragmentContainer, logoFragment)
+                .commit();
     }
 }
