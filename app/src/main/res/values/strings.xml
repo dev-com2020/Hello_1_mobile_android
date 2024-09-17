@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Hello_1</string>
+    <string name="hello_world">Cześć Tomek</string>
+    <string name="opis_obrazka" translatable="false">Domek w Górach</string>
+    <string name="opis_domku" translatable="false">Przytulny domek w sercu gór, idealny na weekendowy
+        wypad lub dłuższy pobyt. Oferuje on zapierające dech w piersiach widoki, spokój i bliskość natury.
+        W środku znajdziesz kominek, w pełni wyposażoną kuchnię i wygodne łóżka, zapewniające komfortowy
+        wypoczynek</string>
+    <string name="pole_opis" translatable="false">OPIS</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>
